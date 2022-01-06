@@ -2,8 +2,39 @@ apiVersion: v1
 entries:
   rocketchat:
   - apiVersion: v2
+    appVersion: 4.3.1
+    created: "2022-01-06T19:27:06.491289784Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    description: Prepare to take off with the ultimate chat platform, experience the
+      next level of team communications
+    digest: 2691d31521f6374f89a6b1c90b4c300d89732202601d1237823bcdcb6d0fb0de
+    home: https://rocket.chat/
+    icon: https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg
+    keywords:
+    - chat
+    - communication
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    - meteor
+    maintainers:
+    - email: cloud@rocket.chat
+      name: RocketChat
+    name: rocketchat
+    sources:
+    - https://github.com/RocketChat/Docker.Official.Image/
+    urls:
+    - charts/rocketchat-4.3.1.tgz
+    version: 4.3.1
+  - apiVersion: v2
     appVersion: 3.14.5
-    created: "2021-07-01T13:48:55.519922204-03:00"
+    created: "2022-01-06T19:27:06.484589377Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -34,7 +65,7 @@ entries:
     version: 3.1.0
   - apiVersion: v2
     appVersion: 3.11.0
-    created: "2021-07-01T13:48:55.506762495-03:00"
+    created: "2022-01-06T19:27:06.465240256Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -64,7 +95,7 @@ entries:
     version: 3.0.1
   - apiVersion: v1
     appVersion: 3.7.2
-    created: "2021-07-01T13:48:55.500077205-03:00"
+    created: "2022-01-06T19:27:06.462340553Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -93,4 +124,4 @@ entries:
     urls:
     - charts/rocketchat-3.0.0.tgz
     version: 3.0.0
-generated: "2021-07-01T13:48:55.496540781-03:00"
+generated: "2022-01-06T19:27:06.449034138Z"
